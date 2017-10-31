@@ -1,4 +1,4 @@
-# invertThemeBookmarklet
+# 🌗 invertThemeBookmarklet
 
 [![Releases](https://img.shields.io/github/release/tomlutzenberger/invertThemeBookmarklet.svg?maxAge=3600&style=flat-square)](https://github.com/tomlutzenberger/invertThemeBookmarklet/releases)
 [![License](https://img.shields.io/github/license/tomlutzenberger/invertThemeBookmarklet.svg?maxAge=3600&style=flat-square)](https://github.com/tomlutzenberger/invertThemeBookmarklet/blob/master/LICENSE)
@@ -9,7 +9,14 @@
 ## What it is
 
 invertThemeBookmarklet is a dynamic bookmark written in pure JavaScript to invert the colors of a website (excluding images).
-I personally prefer dark themes because they are less tiring for the eyes
+I personally prefer dark themes because they are less tiring for the eyes. That was the motivation to create invertThemeBookmarklet.
+
+## How to use
+
+1. Open your favorite browser
+1. Create a new bookmark
+1. Copy the contents of [invertThemeBookmarklet.min.js](src/invertThemeBookmarklet.min.js) and paste it in the new bookmark's URL field
+1. Add a nice name to the bookmark (I chose 🌗)
 
 ## Contribution
 
