@@ -30,4 +30,5 @@ This script is published under the **MIT License** and can be used for any comme
 
 ## Changelog
 
+- 2017-11-01 [**v0.2**](https://github.com/tomlutzenberger/invertThemeBookmarklet/releases/tag/v0.2) Improved element inversion
 - 2017-10-31 [**v0.1**](https://github.com/tomlutzenberger/invertThemeBookmarklet/releases/tag/v0.1) Working version
