@@ -1,6 +1,6 @@
 {
   "name": "invert-theme-bookmarklet",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Dynamic Bookmarklet to invert the colors of a website",
   "main": "src/invertThemeBookmarklet.js",
   "scripts": {
