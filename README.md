@@ -4,9 +4,9 @@
 [![License](https://img.shields.io/github/license/tomlutzenberger/invertThemeBookmarklet.svg?maxAge=3600&style=flat-square)](https://github.com/tomlutzenberger/invertThemeBookmarklet/blob/master/LICENSE)
 [![David](https://img.shields.io/david/tomlutzenberger/invertThemeBookmarklet.svg?maxAge=3600&style=flat-square&label=dep)]()
 [![David DEV](https://img.shields.io/david/dev/tomlutzenberger/invertThemeBookmarklet.svg?maxAge=3600&style=flat-square&label=devDep)]()
-[![Made with Love](https://img.shields.io/badge/Made%20with-%E2%99%A5-red.svg?style=flat-square)]()
-[![Code Climate](https://img.shields.io/codeclimate/github/tomlutzenberger/invertThemeBookmarklet.svg)](https://codeclimate.com/github/tomlutzenberger/invertThemeBookmarklet)
+[![Maintainability](https://api.codeclimate.com/v1/badges/214c62fd014b152dd4cc/maintainability)](https://codeclimate.com/github/tomlutzenberger/invertThemeBookmarklet/maintainability)
 [![Documentation](https://inch-ci.org/github/tomlutzenberger/invertThemeBookmarklet.svg?branch=master)](https://inch-ci.org/github/tomlutzenberger/invertThemeBookmarklet)
+[![Made with Love](https://img.shields.io/badge/Made%20with-%E2%99%A5-red.svg?style=flat-square)]()
 
 ## What it is
 
