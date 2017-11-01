@@ -27,14 +27,14 @@ const invertThemeBookmarklet = () => {
      */
     const execute = () => {
         const html = document.querySelector('html');
-        const images = document.querySelectorAll('img');
+        const media = document.querySelectorAll('img, video, svg');
 
         html.style.filter = 'invert(100%)';
         html.style.backgroundColor = '#111';
 
-        if (images.length > ZERO) {
-            images.forEach((img) => {
-                img.style.filter = 'invert(100%)';
+        if (media.length > ZERO) {
+            media.forEach((mediaElement) => {
+                mediaElement.style.filter = 'invert(100%)';
             });
         }
     };
