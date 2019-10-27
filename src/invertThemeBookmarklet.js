@@ -10,7 +10,6 @@
  * https://github.com/tomlutzenberger/invertThemeBookmarklet/blob/master/LICENSE
  */
 
-/*globals document*/
 /*jslint esnext:true */
 
 const invertThemeBookmarklet = () => {
@@ -27,7 +26,7 @@ const invertThemeBookmarklet = () => {
      */
     const execute = () => {
         const html = document.querySelector('html');
-        const media = document.querySelectorAll('img, video, svg');
+        const media = document.querySelectorAll('img, video, svg, iframe');
 
         html.style.filter = 'invert(100%)';
         html.style.backgroundColor = '#111';
