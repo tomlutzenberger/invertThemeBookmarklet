@@ -4,8 +4,8 @@
   "description": "Dynamic Bookmarklet to invert the colors of a website",
   "main": "src/invertThemeBookmarklet.js",
   "scripts": {
-    "minify:compile": "babili src/invertThemeBookmarklet.js --out-file src/invertThemeBookmarklet.min.js",
-    "minify:wrap": "cat src/invertThemeBookmarklet.min.js | wrap 'javascript:!(()=>{' '})();' > tmpfile && cat tmpfile > src/invertThemeBookmarklet.min.js && rm tmpfile",
+    "minify:compile": "babel-minify src/invertThemeBookmarklet.js --out-file src/invertThemeBookmarklet.min.js",
+    "minify:wrap": "cat src/invertThemeBookmarklet.min.js | wrap \"javascript:!(()=>{\" \"})();\" > tmpfile && cat tmpfile > src/invertThemeBookmarklet.min.js && rm tmpfile",
     "minify": "yarn run minify:compile && yarn run minify:wrap",
     "compile": "yarn run minify",
     "lint": "eslint --config .eslintrc.json src/",
@@ -22,12 +22,14 @@
   },
   "homepage": "https://tomlutzenberger.github.io/invertThemeBookmarklet/",
   "devDependencies": {
+    "babel-minify": "^0.5.1",
     "babel-plugin-minify-mangle-names": "^0.2.0",
     "babel-plugin-minify-simplify": "^0.2.0",
     "babel-plugin-minify-type-constructors": "^0.2.0",
     "babili": "^0.1.4",
     "cmd-wrap": "^1.0.4",
-    "eslint": "^4.10.x",
-    "eslint-config-standard": "^10.2.x"
-  }
+    "eslint": "^6.6.0",
+    "eslint-config-standard": "^14.1.0"
+  },
+  "dependencies": {}
 }
