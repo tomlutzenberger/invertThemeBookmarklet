@@ -1,8 +1,8 @@
 /*!
- * invertThemeBookmarklet v0.2.0
+ * invertThemeBookmarklet v0.3.0
  * Dynamic Bookmarklet to invert the colors of a website
  *
- * Copyright (c) 2017 - Tom Lutzenberger (lutzenbergerthomas at gmail dot com)
+ * Copyright (c) 2017-2021 - Tom Lutzenberger (lutzenbergerthomas at gmail dot com)
  * https://github.com/tomlutzenberger/invertThemeBookmarklet
  * https://tomlutzenberger.github.io/invertThemeBookmarklet/
  *

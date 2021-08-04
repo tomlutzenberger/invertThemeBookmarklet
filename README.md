@@ -22,7 +22,7 @@ I personally prefer dark themes because they are less tiring for the eyes. That 
 
 ## Contribution
 
-If you find a case where the script could be improved or a bug needs to be fixed, just file an issue and I look into it.
+If you find a case where the script could be improved or a bug needs to be fixed, just file an issue and I'll take a look into it.
 
 ## License
 
@@ -30,5 +30,6 @@ This script is published under the **MIT License** and can be used for any comme
 
 ## Changelog
 
-- 2017-11-01 [**v0.2**](https://github.com/tomlutzenberger/invertThemeBookmarklet/releases/tag/v0.2) Improved element inversion
-- 2017-10-31 [**v0.1**](https://github.com/tomlutzenberger/invertThemeBookmarklet/releases/tag/v0.1) Working version
+- 2021-08-04	[**v0.3**](https://github.com/tomlutzenberger/invertThemeBookmarklet/releases/tag/v0.3)	Bugfixes, improvements and dependency updates
+- 2017-11-01	[**v0.2**](https://github.com/tomlutzenberger/invertThemeBookmarklet/releases/tag/v0.2)	Improved element inversion
+- 2017-10-31	[**v0.1**](https://github.com/tomlutzenberger/invertThemeBookmarklet/releases/tag/v0.1)	Working version
