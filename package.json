@@ -27,9 +27,9 @@
     "babel-plugin-minify-simplify": "^0.2.0",
     "babel-plugin-minify-type-constructors": "^0.2.0",
     "babili": "^0.1.4",
-    "cmd-wrap": "^1.0.4",
     "eslint": "^6.6.0",
-    "eslint-config-standard": "^14.1.0"
+    "eslint-config-standard": "^14.1.0",
+    "prepend-file-cli": "^1.0.6"
   },
   "dependencies": {}
 }
