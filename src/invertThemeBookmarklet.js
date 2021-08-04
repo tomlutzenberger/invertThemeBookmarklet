@@ -12,8 +12,7 @@
 
 /*jslint esnext:true */
 
-const invertThemeBookmarklet = () => {
-
+(() => {
     'use strict';
 
     const ZERO = 0;
@@ -31,16 +30,9 @@ const invertThemeBookmarklet = () => {
         html.style.filter = 'invert(100%)';
         html.style.backgroundColor = '#111';
 
-        if (media.length > ZERO) {
-            media.forEach((mediaElement) => {
-                mediaElement.style.filter = 'invert(100%)';
-            });
-        }
-    };
-
-
-    return {execute};
-};
-
-
-invertThemeBookmarklet().execute();
+    if (media.length > ZERO) {
+        media.forEach((mediaElement) => {
+            mediaElement.style.filter = 'invert(100%)';
+        });
+    }
+})();
