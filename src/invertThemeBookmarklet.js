@@ -16,19 +16,13 @@
     'use strict';
 
     const ZERO = 0;
+    const html = document.querySelector('html');
+    const body = document.querySelector('body');
+    const media = document.querySelectorAll('img, video, svg, iframe');
 
-    /**
-     * @method execute
-     * @description Execute script
-     *
-     * @returns {void}
-     */
-    const execute = () => {
-        const html = document.querySelector('html');
-        const media = document.querySelectorAll('img, video, svg, iframe');
-
-        html.style.filter = 'invert(100%)';
-        html.style.backgroundColor = '#111';
+    html.style.filter = 'invert(100%)';
+    html.style.backgroundColor = '#111';
+    body.style.backgroundColor = '#eee';
 
     if (media.length > ZERO) {
         media.forEach((mediaElement) => {
